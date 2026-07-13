@@ -9,3 +9,7 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
     console.log("Serveur démarré sur le port 3000");
 });
+
+app.get("/by", (req, res) => {
+    res.send("Bye !");
+});
